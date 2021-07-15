@@ -1,0 +1,7 @@
+C:\Users\Lenovo\source\repos\TaskAboutReaderWriter\TaskAboutReaderWriter\bin\Debug\TaskAboutReaderWriter.exe.config
+C:\Users\Lenovo\source\repos\TaskAboutReaderWriter\TaskAboutReaderWriter\bin\Debug\TaskAboutReaderWriter.exe
+C:\Users\Lenovo\source\repos\TaskAboutReaderWriter\TaskAboutReaderWriter\bin\Debug\TaskAboutReaderWriter.pdb
+C:\Users\Lenovo\source\repos\TaskAboutReaderWriter\TaskAboutReaderWriter\obj\Debug\TaskAboutReaderWriter.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\TaskAboutReaderWriter\TaskAboutReaderWriter\obj\Debug\TaskAboutReaderWriter.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\TaskAboutReaderWriter\TaskAboutReaderWriter\obj\Debug\TaskAboutReaderWriter.exe
+C:\Users\Lenovo\source\repos\TaskAboutReaderWriter\TaskAboutReaderWriter\obj\Debug\TaskAboutReaderWriter.pdb
