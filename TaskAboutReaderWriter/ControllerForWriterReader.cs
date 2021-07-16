@@ -50,11 +50,27 @@ namespace TaskAboutReaderWriter
             while (WriterCount > 0)
                 Monitor.Wait(ListReader);
 
+            ReaderCount++;
+            ListReader[IndexReader].ReadingDocuments();
+            ReaderCount--;
+            if (ReaderCount == 0)
+                Monitor.PulseAll(ListReader);
+
+            Monitor.Exit(ListReader);
         }
 
-        public void WorkingWithFileWriter()
+        public void WorkingWithFileWriter(int IndexWriter)
         {
-            
+            Monitor.Enter(ListWriter);
+            WriterCount++;
+            while (ReaderCount > 0)
+                Monitor.Wait(ListWriter);
+
+            ListWriter[IndexWriter].DocumentEditing();
+
+            WriterCount--;
+            Monitor.PulseAll(ListWriter);
+            Monitor.Exit(ListWriter);
         }
 
     }
